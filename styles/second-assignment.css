@@ -120,6 +120,9 @@
     box-shadow: 5px 5px 5px 5px #f7f7f7;
     border-radius: 5px;
 }
+.text-info{
+    padding-right: 100px;
+}
 .option-header{
     font-weight: 600;
     font-size: 20px;
@@ -132,7 +135,7 @@
     padding-top: 10px;
 }
 .enjoyable-images{
-    padding-left: 150px;
+    /* padding-left: 100px; */
 }
 .line-header{
     display: flex;
@@ -213,4 +216,42 @@ vl{
     .team-images{
         grid-template-columns: repeat(1, 1fr);
     }
+    .text-image {
+        flex-direction: column;
+    }
+    .text-info{
+        padding-right: 20px;
+    }
+    .features-header-line{
+        padding: 0px 20px;
+        font-weight: 500;
+        font-size: 35px;
+    }
+    #vl{
+        margin-left: 15px;
+        height: 100px;
+    }
+    .enjoyable-paragraph{
+        padding: 20px 20px;
+    }
+    .enjoyable-images img{
+        width: 100%;
+        padding: 15px;
+    }
+    .experience{
+        height: 90px;
+        width: 140px;
+        margin: 0 auto;
+    }
+    .experience-button{
+        margin: 20px;
+        font-weight: 400;
+        font-size: 25px;
+        padding: 0px;
+    }
+    .experience-word{
+        font-weight: 200;
+        font-size: 10px;
+    }
+    
 }
