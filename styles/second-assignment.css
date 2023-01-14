@@ -71,7 +71,7 @@
     }
     .navbar {
         flex-direction: column;
-        margin-left: -80px;  
+        /* margin-left: -80px;   */
     }
     .navbar ul {
         flex-direction: column;
@@ -84,6 +84,9 @@
     font-weight: 500;
     font-size: 45px;
     padding: 20px 0;
+    }
+    .banner-description{
+        padding: 0px 20px;
     }
     .banner-image img{
         width: 100%;
