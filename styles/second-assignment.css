@@ -109,7 +109,70 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
+/* Enjoyable Future Features Section  */
+.text-image{
+    display: flex;
+    align-items: center;
+}
+.enjoyable-option{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px #f7f7f7;
+    border-radius: 5px;
+}
+.option-header{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.option-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 10px;
+}
+.enjoyable-images{
+    padding-left: 150px;
+}
+.line-header{
+    display: flex;
+    align-items: center;
+}
+vl{
+    border-left: 5px solid #FF900E;
+    height: 120px;
+}
+.features-header-line{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding: 0 15px;
+}
+.enjoyable-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 30px 0;
+}
+.experience{
+    background-color: #FF900E;
+    margin: -170px 700px;
+    border-radius: 10px;
+}
+.experience-button{
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 65px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.experience-word{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
 
 
 
