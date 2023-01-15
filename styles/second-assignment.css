@@ -266,6 +266,8 @@ vl{
     justify-content: center;
     gap: 250px;
     align-items: center;
+    background-color: #ffead2;
+    border-radius: 10px;
 }
 .input-email, .input-password{
     font-size: 20px;
@@ -285,8 +287,19 @@ vl{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 70px;
 }
-
+/* footer section */
+.footer{
+    background-color: bisque;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    margin-top: 100px;
+}
 
 
 
@@ -383,7 +396,10 @@ vl{
     }
     .connect-section{
         flex-direction: column-reverse;
-        gap: 50px;
+        gap: 10px;
+    }
+    .social-media-icon{
+        margin-bottom: 50px;
     }
     .registration{
         margin-left: 25px;
